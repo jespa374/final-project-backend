@@ -1,0 +1,18 @@
+[
+	{
+		"title": "CODE",
+		"skill": ["HTML5","CSS3","JavaScript ES6", "GitHub", "React", "Redux", "Node.js"]
+	},
+	{
+		"title": "TOOLBOX",
+		"skill": ["Microsoft Excel","Slack", "Stack Overflow","Visual Studio Code"]
+	},
+	{
+		"title": "UPCOMING",
+		"skill": ["TypeScript","SASS","SQL"]
+	},
+	{
+		"title": "MORE",
+		"skill": ["Agile methodology","Web Accessibility","Mob Programming","Pair Programming", "Code Review"]
+	}
+]

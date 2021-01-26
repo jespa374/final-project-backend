@@ -1,0 +1,42 @@
+[
+	{
+		"date": "NOV 2020",
+		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611666449/thoughts/fdas9gbufnjtmxlhsc9e.jpg",
+		"title": "My first introduction to the world of coding",
+		"url": "https://medium.com/@jessica.panditha/my-first-introduction-to-the-world-of-coding-e7ba1ce368f0",
+		"intro": "Few months ago I took a huge step in my life and started a coding boot camp. Now that I am half way through the boot camp I started thinking about how I was introduced to coding",
+		"isFeatured": true
+	},
+	{
+		"date": "OCT 2020",
+		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611666607/thoughts/pu2vsshayx6lrfx3tmgv.png",
+		"title": "Is coding black or white?",
+		"url": "https://medium.com/@jessica.panditha/how-black-and-white-is-coding-c486d488cb73",
+		"intro": "Before starting my coding journey I thought about coding in a black and white way where there is only right or wrong. I realized that that is only half the truth. There are always so many ways to solve one problem when you code so in that case there is not one correct solution. However different solutions can vary in how readable the code is, if it's applicable only in that specific problem or in many other situations.",
+		"isFeatured": true
+	},
+	{
+		"date": "OCT 2020",
+		"imageUrl": "",
+		"title": "Is coding black or white?",
+		"url": "",
+		"intro": "Before starting my coding journey I thought about coding in a black and white way where there is only right or wrong. I realized that that is only half the truth. There are always so many ways to solve one problem when you code so in that case there is not one correct solution. However different solutions can vary in how readable the code is, if it's applicable only in that specific problem or in many other situations.",
+		"isFeatured": false
+	},
+	{
+		"date": "OCT 2020",
+		"imageUrl": "",
+		"title": "Is coding black or white?",
+		"url": "",
+		"intro": "Before starting my coding journey I thought about coding in a black and white way where there is only right or wrong. I realized that that is only half the truth. There are always so many ways to solve one problem when you code so in that case there is not one correct solution. However different solutions can vary in how readable the code is, if it's applicable only in that specific problem or in many other situations.",
+		"isFeatured": false
+	},
+	{
+		"date": "OCT 2020",
+		"imageUrl": "",
+		"title": "Is coding black or white?",
+		"url": "",
+		"intro": "Before starting my coding journey I thought about coding in a black and white way where there is only right or wrong. I realized that that is only half the truth. There are always so many ways to solve one problem when you code so in that case there is not one correct solution. However different solutions can vary in how readable the code is, if it's applicable only in that specific problem or in many other situations.",
+		"isFeatured": false
+	}
+]

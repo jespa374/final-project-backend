@@ -38,10 +38,6 @@ const parser = multer({ storage });
 
 //Models
 
-const Tech = mongoose.model('Tech', {
-  techName: String
-});
-
 //Figure out how to display featured projects with images and other projects without image
 const Project = mongoose.model('Project', {
   title: {
@@ -76,6 +72,9 @@ const Thought = mongoose.model('Thought', {
   },
   title: {
     type: String
+  },
+  introduction: {
+
   },
   url: {
     type: String
@@ -152,18 +151,30 @@ app.get('/', (req, res) => {
 });
 
 app.get('/projects', async (req, res) => {
-  const allProjects = await Project.find(req.query);
-  res.json(allProjects);
+  try {
+    const allProjects = await Project.find(req.query);
+    res.json(allProjects);
+  } catch (error) {
+    res.status(400).json({ error: "Could not fetch any projects" })
+  }
 });
 
 app.get('/thoughts', async (req, res) => {
-  const allThoughts = await Thought.find(req.query);
-  res.json(allThoughts);
+  try {
+    const allThoughts = await Thought.find(req.query);
+    res.json(allThoughts);
+  } catch (error) {
+    res.status(400).json({ error: "Could not fetch any projects" })
+  }
 });
 
 app.get('/skills', async (req, res) => {
-  const allSkills = await Skill.find(req.query);
-  res.json(allSkills);
+  try {
+    const allSkills = await Skill.find(req.query);
+    res.json(allSkills);
+  } catch (error) {
+    res.status(400).json({ error: "Could not fetch any projects" })
+  }
 });
 
 //This endpoint is only to upload own images to Cloudinary. Remove?

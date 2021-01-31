@@ -91,7 +91,7 @@ const Skill = mongoose.model('Skill', {
   title: {
     type: String
   },
-  skill: {
+  skillItems: {
     type: Array
   }
 });
@@ -137,7 +137,7 @@ if (process.env.RESET_DB) {
     });
   }
   seedDatabase();
-}
+};
 
 const port = process.env.PORT || 8080;
 const app = express();

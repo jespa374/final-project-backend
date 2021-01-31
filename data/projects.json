@@ -29,7 +29,7 @@
 		"url": "https://github.com/jespa374/project-news-site",
 		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611665378/projects/p7pbyotbkzcwsla0dztw.png",
 		"isFeatured": true,
-		"tech": []
+		"tech": ["HTML", "CSS3"]
 	},
 	{
 		"title": "Weather app",
@@ -37,7 +37,7 @@
 		"url": "https://github.com/jespa374/project-weather-app",
 		"imageUrl": "",
 		"isFeatured": false,
-		"tech": []
+		"tech": ["HTML", "CSS3", "JavaScript ES6"]
 	},
 	{
 		"title": "Happy Thoughts",
@@ -45,7 +45,7 @@
 		"url": "https://github.com/jespa374/project-happy-thoughts",
 		"imageUrl": "",
 		"isFeatured": false,
-		"tech": []
+	"tech": ["REACT", "CSS3", "JavaScript ES6"]
 	},
 	{
 		"title": "Food Review",
@@ -53,6 +53,6 @@
 		"url": "https://github.com/jespa374/project-food-foxes-2",
 		"imageUrl": "",
 		"isFeatured": false,
-		"tech": []
+		"tech": ["HTML", "CSS3", "JavaScript ES6"]
 	}
 ]

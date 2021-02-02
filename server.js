@@ -99,12 +99,18 @@ const Skill = mongoose.model('Skill', {
 const Contact = mongoose.model('Contact', {
   name: {
     type: String,
+    required: true
   },
   email: {
+    type: String,
+    required: true
+  },
+  //Why doesn't it work when I have type: Number?""
+  telephone: {
     type: String
   },
-  telephone: {
-    type: Number
+  subject: {
+    type: String
   },
   message: {
     type: String
@@ -188,7 +194,21 @@ app.post('/thoughts',parser.single('image'), async (req, res) => {
   res.json({  imageUrl: req.file.path, imageId: req.file.filename });
 });
 //Create post request for contact form
-
+app.post('/messages', async (req, res) => {
+  try {
+    const { name, email, telephone, subject, message } = req.body;
+    const contact = await new Contact({
+      name,
+      email,
+      telephone,
+      subject,
+      message
+    }).save();
+    res.status(200).json('Contact posted successfully');
+  } catch (error) {
+    res.status(400).json({message: 'Could not post the contact', errors: error.errors});
+  }
+});
 
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);

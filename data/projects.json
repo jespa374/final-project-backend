@@ -4,6 +4,7 @@
 		"description": "Built with React",
 		"url": "https://github.com/jespa374/project-movies",
 		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611664480/projects/x5gbpsulqtqdunc20qew.png",
+		"imageText":"MOVIES",
 		"isFeatured": true,
 		"tech": ["REACT", "CSS3", "JavaScript ES6"]
 	},
@@ -12,6 +13,7 @@
 		"description": "Built with React",
 		"url": "https://github.com/jespa374/project-music-releases",
 		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611664688/projects/b96cv9yir6cmi7pygewf.png",
+		"imageText":"MUSIC RELEASES",
 		"isFeatured": true,
 		"tech": ["REACT", "CSS3", "JavaScript ES6"]
 	},
@@ -20,6 +22,7 @@
 		"description": "Built with JavaScript",
 		"url": "https://github.com/jespa374/project-cluedo",
 		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611664917/projects/vrafqqxzknupvr5xoqzv.png",
+		"imageText":"CLUEDO",
 		"isFeatured": true,
 		"tech": ["HTML", "CSS3", "JavaScript ES6"]
 	},
@@ -28,6 +31,7 @@
 		"description": "Built with HTML & CSS",
 		"url": "https://github.com/jespa374/project-news-site",
 		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611665378/projects/p7pbyotbkzcwsla0dztw.png",
+		"imageText":"NEWS SITE",
 		"isFeatured": true,
 		"tech": ["HTML", "CSS3"]
 	},
@@ -36,6 +40,7 @@
 		"description": "Built with JavaScript using the weather API",
 		"url": "https://github.com/jespa374/project-weather-app",
 		"imageUrl": "",
+		"imageText":"WEATHER APP",
 		"isFeatured": false,
 		"tech": ["HTML", "CSS3", "JavaScript ES6"]
 	},
@@ -44,6 +49,7 @@
 		"description": "Website similar to Twitter using API",
 		"url": "https://github.com/jespa374/project-happy-thoughts",
 		"imageUrl": "",
+		"imageText":"HAPPY THOUGHTS",
 		"isFeatured": false,
 	"tech": ["REACT", "CSS3", "JavaScript ES6"]
 	},
@@ -52,6 +58,7 @@
 		"description": "Food review website similar to Deliveroo using API",
 		"url": "https://github.com/jespa374/project-food-foxes-2",
 		"imageUrl": "",
+		"imageText":"FOOD REVIEW",
 		"isFeatured": false,
 		"tech": ["HTML", "CSS3", "JavaScript ES6"]
 	}

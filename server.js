@@ -55,6 +55,9 @@ const Project = mongoose.model('Project', {
   imageId: {
     type: String
   },
+  imageText: {
+    type: String
+  },
   isFeatured: {
     type: Boolean
   },

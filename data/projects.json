@@ -13,7 +13,7 @@
 		"description": "Built with React",
 		"url": "https://github.com/jespa374/project-music-releases",
 		"imageUrl": "https://res.cloudinary.com/dnbo9afao/image/upload/v1611664688/projects/b96cv9yir6cmi7pygewf.png",
-		"imageText":"MUSIC RELEASES",
+		"imageText":"MUSIC SITE",
 		"isFeatured": true,
 		"tech": ["REACT", "CSS3", "JavaScript ES6"]
 	},

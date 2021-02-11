@@ -38,7 +38,6 @@ const parser = multer({ storage });
 
 //Models
 
-//Figure out how to display featured projects with images and other projects without image
 const Project = mongoose.model('Project', {
   title: {
     type: String
@@ -67,8 +66,6 @@ const Project = mongoose.model('Project', {
 const Thought = mongoose.model('Thought', {
   date: {
     type: String
-    //type: Date,
-    //default: Date.now
   },
   imageUrl: {
     type: String
@@ -108,7 +105,6 @@ const Contact = mongoose.model('Contact', {
     type: String,
     required: true
   },
-  //Why doesn't it work when I have type: Number?""
   telephone: {
     type: String
   },
@@ -196,7 +192,7 @@ app.post('/thoughts',parser.single('image'), async (req, res) => {
   console.log(req.file);
   res.json({  imageUrl: req.file.path, imageId: req.file.filename });
 });
-//Create post request for contact form
+
 app.post('/messages', async (req, res) => {
   try {
     const { name, email, telephone, subject, message } = req.body;

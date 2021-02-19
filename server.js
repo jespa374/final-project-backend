@@ -16,7 +16,7 @@ mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.Promise = Promise;
 
 //This will read my .env file and turn each of the cloudinary stuff in the 
-//.env file into process.env. bla bla bla
+//.env file into process.env. 
 dotenv.config();
 
 const cloudinary = cloudinaryFramework.v2; 
@@ -182,7 +182,7 @@ app.get('/skills', async (req, res) => {
   }
 });
 
-//This endpoint is only to upload own images to Cloudinary. Remove?
+//This endpoint is only to upload own images to Cloudinary. 
 //image here is the key that will be used when we post as form-data.
 //Remember to choose form-data when you choose the body and NOT JSON.
 //In postman, when you click key, change text > file. 
